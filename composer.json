@@ -1,0 +1,21 @@
+{
+    "name": "pawelk/number-systems",
+    "description": "Conversion between number systems",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Paweł Karcz",
+            "email": "pawel.karcz.it@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "4.8.x"
+    },
+	"autoload": {
+        "psr-4": {"NumberSystems\\": "src/"}
+    },
+	"autoload-dev": {
+		"psr-4": {"NumberSystems\\": "tests/"}
+	}
+}
